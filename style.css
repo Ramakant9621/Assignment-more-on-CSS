@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(99, 148, 237);
+}
+
+nav {
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(99, 148, 237);
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
